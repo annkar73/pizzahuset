@@ -9,6 +9,7 @@ export default function PrintMenuPage() {
       <h1 className="text-xl font-bold text-center text-red-800 mb-1 print:text-lg">
         Pizzahuset i Hallstavik - Vår meny
       </h1>
+      <p className="text-sm text-center text-green-800 font-semibold mb-4 underline print:text-[12px]">Barnpizzor -10 kronor</p>
 
       {/* Utskriftsknapp */}
       <div className="mb-2 text-center print:hidden">
@@ -18,6 +19,8 @@ export default function PrintMenuPage() {
         >
           Spara / Skriv ut menyn
         </button>
+
+
       </div>
 
       {menu.map((category) => (

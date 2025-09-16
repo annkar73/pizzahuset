@@ -27,6 +27,8 @@ export default function MenuPage() {
   >
     här
   </Link>
+
+  <p className="mt-6 font-semibold text-red-800 underline">Barnpizzor -10 kronor</p>
 </div>
       {menu.map((category) => {
         const isOpen = openCategories.includes(category.title);
