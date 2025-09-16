@@ -167,8 +167,11 @@ export const menu: IMenuCategory[] = [
   {
     title: "A la carte",
     items: [
-      { name: "Cheeseburgare", ingredients: "Nötkött, ost, sallad", price: 85 },
-      { name: "Baconburgare", ingredients: "Nötkött, bacon, ost", price: 95 },
+      { name: "Nötbit", ingredients: "med strips och bearnaisesås", price: 105 },
+      { name: "Schnitzel", ingredients: "med strips och bearnaisesås", price: 115 },
+      { name: "Rödspätta", ingredients: "med strips och remouladsås", price: 120 },
+      { name: "Grillbiff", ingredients: "med strips och bearnaisesås", price: 115 },
+      { name: "Chicky Bits", ingredients: "med strips och currysås", price: 120 },
     ],
   },
   {
