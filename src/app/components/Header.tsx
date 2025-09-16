@@ -22,7 +22,7 @@ export default function Header() {
     <header className="bg-red-800 text-white shadow-md fixed w-full z-50">
       <nav className="max-w-4xl mx-auto flex justify-between items-center p-4 relative">
         <Link href="/" className="font-bold text-xl">
-          Pizzahuset
+          Pizzahuset i Hallstavik
         </Link>
 
         {/* Desktop meny */}
