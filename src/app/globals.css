@@ -18,3 +18,34 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* src/app/globals.css */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 12px; /* mindre text */
+  }
+
+  header, footer, button, nav {
+    display: none !important; /* göm allt utom menyn */
+  }
+
+  main {
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+
+  h1 {
+    font-size: 16pt;
+  }
+
+  h2 {
+    font-size: 14pt;
+  }
+
+  ul li {
+    margin-bottom: 2px;
+    page-break-inside: avoid;
+  }
+}

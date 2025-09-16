@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { menu } from "../../data/menu";
+import Link from "next/link";
 
 export default function MenuPage() {
   const [openCategories, setOpenCategories] = useState<string[]>([]);
@@ -14,10 +15,19 @@ export default function MenuPage() {
   };
 
   return (
-    <div className="space-y-10 pb-8" >
-      <h1 className="text-3xl font-bold text-center text-red-800">Vår meny</h1>
+    <div className="space-y-10 pb-8 pt-10" >
+      <h1 className="text-4xl font-bold text-center text-red-800">Vår meny</h1>
       <p className="text-xl font-bold text-center text-green-800">alla pizzor med mozzarellaost och äkta skinka</p>
 
+<div className="text-center mb-6">
+  <span>Se komplett meny med möjlighet att spara eller skriva ut </span>
+  <Link
+    href="/menu/print"
+    className="inline-block bg-green-800 text-white text-sm font-semibold px-3 py-1.5 rounded hover:bg-green-700 transition-colors align-baseline"
+  >
+    här
+  </Link>
+</div>
       {menu.map((category) => {
         const isOpen = openCategories.includes(category.title);
         return (

@@ -15,7 +15,7 @@ export interface IMenuCategory {
 
 export const menu: IMenuCategory[] = [
   {
-    title: "Prisklass 1",
+    title: "Pizzor Prisklass 1",
     basePrice: 95,
     familyPrice: 245,
     items: [
@@ -37,7 +37,7 @@ export const menu: IMenuCategory[] = [
     ],
   },
   {
-    title: "Prisklass 2",
+    title: "Pizzor Prisklass 2",
     basePrice: 100,
     familyPrice: 265,
     items: [
