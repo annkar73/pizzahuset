@@ -83,20 +83,25 @@ export const menu: IMenuCategory[] = [
   },
   {
     title: "Kebabpizzor",
-    basePrice: 95,
-    familyPrice: 220,
+    basePrice: 110,
+    familyPrice: 305,
     items: [
-      { name: "Margarita", ingredients: "Ost, tomatsås" },
-      { name: "Vesuvio", ingredients: "Skinka" },
+      { name: "Kebabpizza", ingredients: "kebabkött, pepperoni, lök, kebabsås" },
+      { name: "Vikingbåt", ingredients: "(halvinbakad) kebabkött, pepperoni, tomat, kebabsås" },
+      { name: "Bebosh Special", ingredients: "kebabkött, isbergssallad, tomat, lök, pepperoni, kebabsås" },
+      { name: "Kebabpizza Special", ingredients: "kebabkött, tomat, lök, isbergssallad, pepperoni, kebabsås" },
+      { name: "Hockey", ingredients: "kebabkött, tomat, lök, strips, kebabsås" },
+      { name: "Hallstavik", ingredients: "(halvinbakad) kebabkött, fläskfilé, lök, vitlökssås" },
     ],
   },
   {
     title: "Mexikanska pizzor",
-    basePrice: 95,
-    familyPrice: 220,
+    basePrice: 110,
+    familyPrice: 305,
     items: [
-      { name: "Margarita", ingredients: "Ost, tomatsås" },
-      { name: "Vesuvio", ingredients: "Skinka" },
+      { name: "Azteka", ingredients: "skinka, tacosås, tacokrydda, jalapeño" },
+      { name: "Mexicana", ingredients: "köttfärs, tacosås, tacokrydda, vitlök, lök jalapeño" },
+      { name: "Acapulco", ingredients: "oxfilé, tacokrydda, vitlök, lök, champinjoner, jalapeño, tacosås" },
     ],
   },
   {

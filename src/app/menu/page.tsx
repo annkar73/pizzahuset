@@ -12,7 +12,7 @@ export default function MenuPage() {
           className="bg-white shadow-md rounded-xl p-6 
                      w-full max-w-full md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto"
         >
-          <h2 className="text-2xl font-semibold text-green-800 mb-4">
+          <h2 className="text-2xl font-semibold text-green-900 mb-4">
             {category.title}
           </h2>
 
@@ -39,9 +39,9 @@ export default function MenuPage() {
               >
                 {/* Namn + ingredienser */}
                 <div className="md:flex md:gap-2 md:items-baseline">
-                  <p className="font-bold text-gray-900">{item.name}</p>
+                  <p className="font-bold pr-4 text-green-900">{item.name}</p>
                   {item.ingredients && (
-                    <p className="text-sm text-gray-600">{item.ingredients}</p>
+                    <p className="text-sm pr-4 text-gray-600">{item.ingredients}</p>
                   )}
                 </div>
 
