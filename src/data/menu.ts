@@ -106,11 +106,13 @@ export const menu: IMenuCategory[] = [
   },
   {
     title: "Parmaskinka & Mozzarella",
-    basePrice: 95,
-    familyPrice: 220,
+    basePrice: 120,
+    familyPrice: 305,
     items: [
-      { name: "Margarita", ingredients: "Ost, tomatsås" },
-      { name: "Vesuvio", ingredients: "Skinka" },
+      { name: "Parma", ingredients: "parmaskinka, mozzarella, tomater, champinjoner, ruccola" },
+      { name: "La Rosa", ingredients: "parmaskinka, soltorkade tomater, fårost, oliver" },
+      { name: "Buffalo", ingredients: "mozzarella, pepperonikorv, lök, paprika, oliver, jalapeño, champinjoner, vitlökssås" },
+      { name: "Hallsta", ingredients: "mozzarella, parmaskinka, bacon, salami, ruccola" },
     ],
   },
   {
