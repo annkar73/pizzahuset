@@ -5,18 +5,18 @@ export default function ContactPage() {
 
       {/* contact info in card */}
       <div className="bg-white shadow-md rounded-xl p-6 max-w-md mx-auto mb-8 border-l-4 border-b-4 border-r-4 border-green-700 text-left">
-        <p>
+        <p className="text-sm md:text-lg pb-2" >
           <span className="font-semibold text-green-800">📍 Adress:</span>{" "}
-          Uppsalavägen 4C, Hallstavik
+          <br></br>Uppsalavägen 4C, Hallstavik
         </p>
-        <p>
+        <p className="text-sm md:text-lg">
           <span className="font-semibold text-green-800">🕒 Öppettider:</span>{" "}
-          Mån–Sön 11:00–21:00{" "}
-          <span className="text-sm text-gray-500">(vintertid: 11:00–20:00)</span>
+          <br></br>Mån–Sön 11:00–21:00{" "}
+          <span className="text-sm md:text-lg text-gray-500">(vintertid: 11:00–20:00)</span>
         </p>
-        <p>
+        <p className="text-sm md:text-lg pt-2">
           <span className="font-semibold text-green-800">📞 Telefon:</span>{" "}
-          0175-234 51
+          <br></br>0175-234 51
         </p>
       </div>
 
@@ -24,6 +24,7 @@ export default function ContactPage() {
         <em>Observera avvikande öppettider under vinterhalvåret.<br />
         2025 innebär det att öppettiderna ändras från 27 oktober.</em>
       </p>
+
 
 
       <div className="mt-6 pt-6 border-t border-gray-300 pt-1 text-left text-sm print:text-[10px]">
