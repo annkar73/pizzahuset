@@ -8,7 +8,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="sv">
       <body className="min-h-screen flex flex-col text-gray-900">
         <Header />
-        <main className="flex-grow max-w-4xl mx-auto p-6">{children}</main>
+        <main className="flex-grow mx-auto p-6">
+          <div className="bg-inherit pt-6">{children}</div>
+        </main>
         <Footer />
       </body>
     </html>
