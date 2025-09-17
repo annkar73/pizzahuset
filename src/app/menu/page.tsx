@@ -15,7 +15,7 @@ export default function MenuPage() {
   };
 
   return (
-    <div className="space-y-10 pb-8 pt-10" >
+    <div className="space-y-5 pb-8 pt-10" >
       <h1 className="text-4xl font-bold text-center text-red-800">Vår meny</h1>
       <p className="text-xl font-bold text-center text-green-800">alla pizzor med tomatsås och mozzarellaost</p>
 
