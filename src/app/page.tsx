@@ -12,7 +12,7 @@ export default function HomePage() {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-grey/50 flex flex-col items-center justify-center text-center px-4">
+        <div className="absolute inset-0 bg-black/30 flex flex-col items-center justify-center text-center px-4">
           <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg mb-4">
             Välkommen till Pizzahuset!
           </h1>
@@ -24,8 +24,31 @@ export default function HomePage() {
 
       {/* Resten av innehållet i max-width container */}
       <main className="text-center mt-10 px-4">
+        {/* lunch card  */}
+        <div className="bg-white shadow-md rounded-xl p-4 max-w-2xl mx-auto mb-6 border-4 border-red-800">
+        <h2 className="text-2xl md:text-4xl font-semibold mb-4">
+          Dagens Lunch
+        </h2>
+        <h3 className="text-xl md:text-3xl text-red-800 font-semibold mb-4">
+          måndag till fredag 11:00 - 14:00
+          </h3>
+        <h4 className="text-lg md:text-xl text-red-800 font-semibold mb-3">
+          Valfri pizza från Prisgrupp 1 + dryck 33cl - 99 kr
+        </h4>
+        </div>
+
+
+        <p className="text-sm md:text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
+          Hos oss på Pizzahuset hittar du ett brett utbud av läckra pizzor,
+          sallader, kebab och annat gott, allt tillagat med
+          omsorgsfullt utvalda råvaror av högsta kvalitet. 
+        </p>  
+        <p className="text-sm md:text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
+          Vi strävar efter att skapa en varm och välkomnande atmosfär där du
+          kan njuta av din måltid i lugn och ro, med en praktisk ramp från gatunivå till uteservering och restaurang som garanterar tillgänglighet för alla.
+        </p>
         {/* Kontaktkort */}
-        <div className="bg-white shadow-md rounded-xl p-6 max-w-md mx-auto mb-8 border-l-4 border-b-4 border-r-4 border-green-700 text-left">
+        <div className="bg-white shadow-xl rounded-xl p-6 max-w-md mx-auto mb-8 text-left">
           <p className="text-sm md:text-lg pb-2">
             <span className="font-semibold text-green-800">📍 Adress:</span>
             <br />

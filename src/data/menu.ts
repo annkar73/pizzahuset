@@ -180,7 +180,7 @@ export const menu: IMenuCategory[] = [
       { name: "Bearnaisesås", price: 20 },
       { name: "Kebabsås", price: 20 },
       { name: "Pizzasallad", price: 20 },
-      { name: "Läsk, 50 cl", price: 20 },
+      { name: "Läsk, 33 cl", price: 20 },
     ],
   },
 ];
