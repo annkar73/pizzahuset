@@ -76,7 +76,8 @@ export default function PrintMenuPage() {
       <div className="mt-6 pt-6 border-t border-gray-300 pt-1 text-center text-sm print:text-[10px]">
         <p className="font-bold text-lg underline">Pizzahuset i Hallstavik</p>
         <p><span className="font-semibold font-green-800">Adress:</span> Uppsalavägen 4C, Hallstavik</p>
-        <p><span className="font-semibold">Öppettider:</span> Mån-Sön 11:00-21:00 | vintertid: 11:00-20:00</p> 
+        <p><span className="font-semibold">Öppet alla dagar</span>
+        <br></br> Sommar 11:00-21:00 | Vinter 11:00-20:00</p> 
 
         <p><span className="font-semibold">Telefon:</span> 0175-234 51</p>
       </div>
