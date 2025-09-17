@@ -1,0 +1,34 @@
+saker att kolla upp
+
+prisklass 2:
+25 - Riviera - riviera salami (är det en särskild sort eller bara felskrivet)
+
+specialpizzor:
+36 - Pizzabarens special - det står bara filé, jag gissar oxfilé men det kan lika väl vara fläskfilé
+
+kebabpizzor:
+50 - bebosh special och
+51 - Kebabpizza special - samma ingredienser. Om man lägger till gurka på den ena så motsvarar det Millenium på Blå Krogen
+
+pepperoni med 2 p är en korv, peperoni med 1 p är detsamma som feferoni. jag hoppas att det som finns på kebabpizzorna är chilifrukten
+60 - Buffalo har tex pepperonikorv 
+p = feferoni
+pp = korv
+
+Lunchtid - ett lämpligt tidsspann, troligen måndag till fredag (normala arbetsdagar). Specifikt erbjudande, ett visst spann av pizzor och ett bra pris med läsk och pizzasallad ingår kan vara lämpligt.
+
+pris för läsk - 33 cl och 1,5 liter bör läggas till under tillbehör eller få en egen kategori i menyn
+
+Såser:
+kebabsåser - vilka finns att välja mellan? mild, stark, vit?
+bearneaisesås - är den hemslagen eller köpt? 
+Currysås - vad är det för sås?
+Remouladsås - vad är det för sås? 
+
+Förändringar i designen:
+menysidan - eventuellt ha röd eller grön bakgrund på boxarna när de är stängda och vita när de är öppna. Piffa till det lite. 
+bilder - det behöver finnas fler bilder än bara hero och nån enstaka ikon. 
+special features: 
+- Ska man lägga till något som är lite kul
+- en "just nu" sektion inom overflow som är dold om den inte har något innehåll (kommentera ut om möjligt)
+- länka till facebook och se om det går att få en "live" version av senaste inlägget där
