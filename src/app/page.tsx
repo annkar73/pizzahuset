@@ -37,7 +37,15 @@ export default function HomePage() {
         </h4>
         </div>
 
+        {/* Länk till menyn */}
+        <a
+          href="/menu"
+          className="inline-block bg-green-800 text-white font-semibold px-6 py-2 mb-4 rounded-lg shadow hover:bg-red-800 transition-colors"
+        >
+          🍕 Se vår meny
+        </a>
 
+        {/* Beskrivning */}
         <p className="text-sm md:text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
           Hos oss på Pizzahuset hittar du ett brett utbud av läckra pizzor,
           sallader, kebab och annat gott, allt tillagat med
@@ -77,13 +85,6 @@ export default function HomePage() {
           </em>
         </p>
 
-        {/* Länk till menyn */}
-        <a
-          href="/menu"
-          className="inline-block bg-green-800 text-white font-semibold px-6 py-2 rounded-lg shadow hover:bg-red-800 transition-colors"
-        >
-          🍕 Se vår meny
-        </a>
       </main>
     </div>
   );
