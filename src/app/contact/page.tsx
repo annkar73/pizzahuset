@@ -6,17 +6,21 @@ export default function ContactPage() {
       {/* Grid för kontaktinfo + karta */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
         {/* Kontaktkort */}
-        <div className="bg-white shadow-xl rounded-xl p-6 text-left md:col-span-1 flex flex-col justify-between">
+        <div className="bg-white shadow-xl rounded-xl p-6 text-left md:col-span-1 flex flex-col justify-evenly">
           <div>
             <p className="text-sm md:text-lg pb-2">
-              <span className="font-semibold text-green-800">📍 Adress:</span>
+              <span className="font-semibold text-green-800">📍 Adress:
+
+              </span>
               <br /> Uppsalavägen 4C, Hallstavik
             </p>
             <p className="text-sm md:text-lg">
-              <span className="font-semibold text-green-800">🕒 Öppettider:</span>
-              <br /> Mån–Sön 11:00–21:00{" "}
-              <span className="text-sm md:text-lg text-gray-500">
-                (vintertid: 11:00–20:00)
+              <span className="font-semibold text-green-800">🕒 Öppettider:
+
+              </span>
+              <br />Sommar: Mån–Sön 11:00–21:00{" "}
+              <span>
+                Vinter: Mån-Sön 11:00–20:00
               </span>
             </p>
             <p className="text-sm md:text-lg pt-2">

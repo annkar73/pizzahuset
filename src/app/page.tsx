@@ -55,35 +55,37 @@ export default function HomePage() {
           Vi strävar efter att skapa en varm och välkomnande atmosfär där du
           kan njuta av din måltid i lugn och ro, med en praktisk ramp från gatunivå till uteservering och restaurang som garanterar tillgänglighet för alla.
         </p>
+
         {/* Kontaktkort */}
-        <div className="bg-white shadow-xl rounded-xl p-6 max-w-md mx-auto mb-8 text-left">
-          <p className="text-sm md:text-lg pb-2">
-            <span className="font-semibold text-green-800">📍 Adress:</span>
-            <br />
-            Uppsalavägen 4C, Hallstavik
-          </p>
-          <p className="text-sm md:text-lg">
-            <span className="font-semibold text-green-800">🕒 Öppettider:</span>
-            <br />
-            Mån–Sön 11:00–21:00{" "}
-            <span className="text-sm md:text-lg text-gray-500">
-              (vintertid: 11:00–20:00)
-            </span>
-          </p>
-          <p className="text-sm md:text-lg pt-2">
-            <span className="font-semibold text-green-800">📞 Telefon:</span>
-            <br />
-            0175-234 51
+          <div className="bg-white shadow-xl max-w-md rounded-xl p-6 text-left mx-auto">
+            <p className="text-sm md:text-lg pb-2">
+              <span className="font-semibold text-green-800">📍 Adress:
+
+              </span>
+              <br /> Uppsalavägen 4C, Hallstavik
+            </p>
+            <p className="text-sm md:text-lg">
+              <span className="font-semibold text-green-800">🕒 Öppettider:
+
+              </span>
+              <br />Sommar: Mån–Sön 11:00–21:00{" "}
+              <span>
+              <br></br>  Vinter: Mån-Sön 11:00–20:00
+              </span>
+            </p>
+            <p className="text-sm md:text-lg pt-2">
+              <span className="font-semibold text-green-800">📞 Telefon:</span>
+              <br /> 0175-234 51
+            </p>
+
+          <p className="text-sm text-gray-600 mt-6">
+            <em>
+              Observera avvikande öppettider under vinterhalvåret.
+              <br />
+              2025 innebär det att öppettiderna ändras från 27 oktober.
+            </em>
           </p>
         </div>
-
-        <p className="text-sm text-gray-600 mb-6">
-          <em>
-            Observera avvikande öppettider under vinterhalvåret.
-            <br />
-            2025 innebär det att öppettiderna ändras från 27 oktober.
-          </em>
-        </p>
 
       </main>
     </div>
