@@ -53,7 +53,7 @@ export default function MenuPage() {
             {/* Animated content */}
             <div
               className={`transition-[max-height] duration-500 ease-in-out overflow-hidden ${
-                isOpen ? "max-h-[1000px]" : "max-h-0"
+                isOpen ? "max-h-[2000px]" : "max-h-0"
               }`}
             >
               {category.basePrice && (
