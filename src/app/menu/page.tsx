@@ -23,7 +23,7 @@ export default function MenuPage() {
   <span>Se komplett meny med möjlighet att spara eller skriva ut </span>
   <Link
     href="/menu/print"
-    className="inline-block bg-green-800 text-white text-sm font-semibold px-3 py-1.5 rounded hover:bg-green-700 transition-colors align-baseline"
+    className="inline-block text-green-800 text-base font-semibold uppercase px-1 py-1.5 rounded hover:text-red-800 transition-colors align-baseline"
   >
     här
   </Link>
@@ -35,10 +35,10 @@ export default function MenuPage() {
         return (
           <div
             key={category.title}
-            className="bg-white shadow-md rounded-xl p-6
+            className="bg-white shadow-md rounded-xl p-3
                        w-full max-w-full md:max-w-3xl lg:max-w-5xl xl:max-w-6xl mx-auto"
           >
-            <div className="flex justify-between items-center mb-4">
+            <div className="flex justify-between items-center mb-1">
               <h2 className="text-2xl font-semibold text-green-800">
                 {category.title}
               </h2>
