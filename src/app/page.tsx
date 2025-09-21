@@ -33,7 +33,7 @@ export default function HomePage() {
           måndag till fredag 11:00 - 14:00
           </h3>
         <h4 className="text-lg md:text-xl text-red-800 font-semibold mb-3">
-          Valfri pizza från Prisgrupp 1 + dryck 33cl - 99 kr
+          Valfri pizza från Prisgrupp 1 (pizza 1-30) + dryck 33cl - 115 kr
         </h4>
         </div>
 
