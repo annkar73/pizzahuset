@@ -16,8 +16,8 @@ export interface IMenuCategory {
 export const menu: IMenuCategory[] = [
   {
     title: "Pizzor Prisklass 1",
-    basePrice: 95,
-    familyPrice: 245,
+    basePrice: 110,
+    familyPrice: 280,
     items: [
       { name: "Margarita", ingredients: "ost, tomatsås" },
       { name: "Vesuvio", ingredients: "skinka" },
@@ -38,8 +38,8 @@ export const menu: IMenuCategory[] = [
   },
   {
     title: "Pizzor Prisklass 2",
-    basePrice: 100,
-    familyPrice: 265,
+    basePrice: 120,
+    familyPrice: 300,
     items: [
       { name: "Capri", ingredients: "skinka, curry, banan, ananas" },
       { name: "Lagondola", ingredients: "bacon, ägg, paprika, tomat" },
@@ -60,8 +60,8 @@ export const menu: IMenuCategory[] = [
   },
   {
     title: "Specialpizzor",
-    basePrice: 110,
-    familyPrice: 305,
+    basePrice: 130,
+    familyPrice: 350,
     items: [
       { name: "Calzone Special", ingredients: "(dubbelinbakad) skinka, räkor, champinjoner" },
       { name: "Husets Special", ingredients: "köttfärs, paprika, lök, bearnaisesås" },
@@ -83,12 +83,12 @@ export const menu: IMenuCategory[] = [
   },
   {
     title: "Kebabpizzor",
-    basePrice: 110,
-    familyPrice: 305,
+    basePrice: 130,
+    familyPrice: 350,
     items: [
       { name: "Kebabpizza", ingredients: "kebabkött, peperoni, lök, kebabsås" },
       { name: "Vikingbåt", ingredients: "(halvinbakad) kebabkött, peperoni, tomat, kebabsås" },
-      { name: "Bebosh Special", ingredients: "kebabkött, isbergssallad, tomat, lök, peperoni, kebabsås" },
+      { name: "Bebosh Special", ingredients: "(inbakad) kebabkött, isbergssallad, tomat, lök, peperoni, kebabsås" },
       { name: "Kebabpizza Special", ingredients: "kebabkött, tomat, lök, isbergssallad, peperoni, kebabsås" },
       { name: "Hockey", ingredients: "kebabkött, tomat, lök, strips, kebabsås" },
       { name: "Hallstavik", ingredients: "(halvinbakad) kebabkött, fläskfilé, lök, vitlökssås" },
@@ -96,8 +96,8 @@ export const menu: IMenuCategory[] = [
   },
   {
     title: "Mexikanska pizzor",
-    basePrice: 110,
-    familyPrice: 305,
+    basePrice: 130,
+    familyPrice: 350,
     items: [
       { name: "Azteka", ingredients: "skinka, tacosås, tacokrydda, jalapeño" },
       { name: "Mexicana", ingredients: "köttfärs, tacosås, tacokrydda, vitlök, lök jalapeño" },
@@ -106,8 +106,8 @@ export const menu: IMenuCategory[] = [
   },
   {
     title: "Parmaskinka & Mozzarella",
-    basePrice: 120,
-    familyPrice: 305,
+    basePrice: 130,
+    familyPrice: 350,
     items: [
       { name: "Parma", ingredients: "parmaskinka, mozzarella, tomater, champinjoner, ruccola" },
       { name: "La Rosa", ingredients: "parmaskinka, soltorkade tomater, fårost, oliver" },
@@ -117,7 +117,7 @@ export const menu: IMenuCategory[] = [
   },
   {
     title: "American Pan Pizza",
-    panPrices: { S: 155, M: 215, L: 255 },
+    panPrices: { S: 180, M: 240, L: 290 },
     items: [
       { name: "Honolulu", ingredients: "skinka, räkor, ananas, banan, curry" },
       { name: "San Fransisco", ingredients: "skinka, champinjoner, tomat, lök, paprika, oliver" },
@@ -130,57 +130,61 @@ export const menu: IMenuCategory[] = [
   {
     title: "Sallader",
     items: [
-      { name: "Räksallad", ingredients: "isbergssallad, tomat, gurka, räkor, ost, rhode island dressing, nybakat bröd", price: 110 },
+      { name: "Räksallad", ingredients: "isbergssallad, tomat, gurka, räkor, ost, rhode island dressing, nybakat bröd", price: 125 },
       { name: "Tonfisksallad", ingredients: "isbergssallad, tomat, gurka, lök, paprika, tonfisk, rhode island dressing, nybakat bröd", price: 110 },
-      { name: "Kebabsallad", ingredients: "isbergssallad, tomat, gurka, kebab, lök, rhode island dressing, nybakat bröd", price: 110 },
-      { name: "Grekisk sallad", ingredients: "isbergssallad, tomat, gurka, lök, paprika, oliver, fårost, rhode island dressing, nybakat bröd", price: 110 },
-      { name: "Ost- & skinksallad", ingredients: "isbergssallad, tomat, gurka, ost, skinka, paprika, rhode island dressing, nybakat bröd", price: 110 },
-      { name: "Kycklingsallad", ingredients: "isbergssallad, tomat, gurka, lök, kyckling, rhode island dressing, nybakat bröd", price: 115 },
-      { name: "Avocadosallad", ingredients: "isbergssallad, tomat, gurka, ost, avokado, skinka, räkor, majs, rhode island dressing, nybakat bröd", price: 115 },
-      { name: "Krabbsallad", ingredients: "isbergssallad, tomat, gurka, ost, krabba, räkor, sparris, rhode island dressing, nybakat bröd", price: 115 },
-      { name: "Mozzarellasallad", ingredients: "isbergssallad, tomat, gurka, parmaskinka, mozzarella, ruccola, soltorkade tomater, lök, oliver, rhode island dressing, nybakat bröd", price: 120 },
+      { name: "Kebabsallad", ingredients: "isbergssallad, tomat, gurka, kebab, lök, rhode island dressing, nybakat bröd", price: 125 },
+      { name: "Grekisk sallad", ingredients: "isbergssallad, tomat, gurka, lök, paprika, oliver, fårost, rhode island dressing, nybakat bröd", price: 125 },
+      { name: "Ost- & skinksallad", ingredients: "isbergssallad, tomat, gurka, ost, skinka, paprika, rhode island dressing, nybakat bröd", price: 125 },
+      { name: "Kycklingsallad", ingredients: "isbergssallad, tomat, gurka, lök, kyckling, rhode island dressing, nybakat bröd", price: 135 },
+      { name: "Avocadosallad", ingredients: "isbergssallad, tomat, gurka, ost, avokado, skinka, räkor, majs, rhode island dressing, nybakat bröd", price: 135 },
+      { name: "Krabbsallad", ingredients: "isbergssallad, tomat, gurka, ost, krabba, räkor, sparris, rhode island dressing, nybakat bröd", price: 135 },
+      { name: "Mozzarellasallad", ingredients: "isbergssallad, tomat, gurka, parmaskinka, mozzarella, ruccola, soltorkade tomater, lök, oliver, rhode island dressing, nybakat bröd", price: 140 },
     ],
   },
 
   {
     title: "Hamburgare",
     items: [
-      { name: "Hamburgare med bröd, 90g", ingredients: "bröd, läsk", price: 80 },
-      { name: "Hamburgertallrik, 90g", ingredients: "strips, läsk", price: 90 },
-      { name: "Hamburgare med bröd, 150g", ingredients: "bröd, läsk", price: 95 },
-      { name: "Hamburgertallrik, 150g", ingredients: "strips, läsk", price: 100 },
+      { name: "Hamburgare med bröd, 90g", ingredients: "bröd, läsk", price: 100 },
+      { name: "Hamburgertallrik, 90g", ingredients: "strips, läsk", price: 115 },
+      { name: "Hamburgare med bröd, 150g", ingredients: "bröd, läsk", price: 110 },
+      { name: "Hamburgertallrik, 150g", ingredients: "strips, läsk", price: 120 },
     ],
   },
   {
     title: "Kebab & Falafel",
     items: [
-      { name: "Kebabtallrik", ingredients: "med strips", price: 100 },
-      { name: "Kebabrulle", ingredients: "", price: 100 },
-      { name: "Kebab skrovmål", ingredients: "med strips", price: 115 },
-      { name: "Kebab med bröd", ingredients: "med bröd", price: 90 },
-      { name: "Kycklingrulle", ingredients: "Nötkött, ost, sallad", price: 100 },
-      { name: "Ost- & skinkrulle", ingredients: "Nötkött, bacon, ost", price: 95 },
-      { name: "Kycklingtallrik", ingredients: "Nötkött, ost, sallad", price: 115 },
-      { name: "Falafelrulle", ingredients: "Nötkött, bacon, ost", price: 95 },
+      { name: "Kebabtallrik", ingredients: "med strips", price: 120 },
+      { name: "Kebabrulle", ingredients: "", price: 120 },
+      { name: "Kebab skrovmål", ingredients: "med strips", price: 135 },
+      { name: "Kebab med bröd", ingredients: "", price: 115 },
+      { name: "Kycklingrulle", ingredients: "", price: 120 },
+      { name: "Ost- & skinkrulle", ingredients: "", price: 120 },
+      { name: "Kycklingtallrik", ingredients: "", price: 130 },
+      { name: "Falafelrulle", ingredients: "", price: 115 },
     ],
   },
   {
     title: "A la carte",
     items: [
-      { name: "Nötbit", ingredients: "med strips och bearnaisesås", price: 105 },
-      { name: "Schnitzel", ingredients: "med strips och bearnaisesås", price: 115 },
-      { name: "Rödspätta", ingredients: "med strips och remouladsås", price: 120 },
-      { name: "Grillbiff", ingredients: "med strips och bearnaisesås", price: 115 },
-      { name: "Chicky Bits", ingredients: "med strips och currysås", price: 120 },
+      { name: "Nötbit", ingredients: "med strips och bearnaisesås", price: 120 },
+      { name: "Schnitzel", ingredients: "med strips och bearnaisesås", price: 135 },
+      { name: "Rödspätta", ingredients: "med strips och remouladsås", price: 135 },
+      { name: "Grillbiff", ingredients: "med strips och bearnaisesås", price: 135 },
+      { name: "Chicky Bits", ingredients: "med strips och currysås", price: 140 },
     ],
   },
   {
     title: "Tillbehör",
     items: [
-      { name: "Bearnaisesås", price: 20 },
-      { name: "Kebabsås", price: 20 },
-      { name: "Pizzasallad", price: 20 },
-      { name: "Läsk, 33 cl", price: 20 },
+      { name: "Bearnaisesås", price: 25 },
+      { name: "Kebabsås", price: 25 },
+      { name: "Currysås", price: 25 },
+      { name: "Remouladsås", price: 25 },
+      { name: "Pizzasallad", price: 25 },
+      { name: "Läsk, 33 cl", price: 25 },
+      { name: "Läsk, 50 cl", price: 30 },
+      { name: "Läsk, 2 l", price: 50 },
     ],
   },
 ];
