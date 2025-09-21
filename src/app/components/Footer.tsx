@@ -8,7 +8,7 @@ export default function Footer() {
           <span className="hidden md:inline">|</span>
           <span>Uppsalavägen 4C</span>
           <span className="hidden md:inline">|</span>
-          <span>0175-234 50</span>
+          <span>0175-234 51</span>
           <span className="hidden md:inline">|</span>
           <span>Öppet alla dagar:</span>
           <span className="hidden md:inline">|</span>
