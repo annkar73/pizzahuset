@@ -9,8 +9,12 @@ export default function PrintMenuPage() {
       <h1 className="text-2xl font-bold text-center text-red-800  mt-6  mb-1 print:text-lg">
         Pizzahuset i Hallstavik - Vår meny
       </h1>
-      <p className="text-sm text-center text-green-800 font-semibold mb-2 print:text-[12px]">Alla pizzor med tomatsås och mozzarellaost</p>
-      <p className="text-sm text-center text-grey-800 font-semibold mb-4 underline print:text-[12px]">Barnpizzor -10 kronor</p>
+      <p className="text-sm text-center text-green-800 font-semibold mb-2 print:text-[12px]">
+        Alla pizzor med tomatsås och mozzarellaost
+      </p>
+      <p className="text-sm text-center text-grey-800 font-semibold mb-4 underline print:text-[12px]">
+        Barnpizzor -10 kronor
+      </p>
 
       {/* Utskriftsknapp */}
       <div className="mb-2 text-center print:hidden">
@@ -20,8 +24,6 @@ export default function PrintMenuPage() {
         >
           Spara / Skriv ut menyn
         </button>
-
-
       </div>
 
       {menu.map((category) => (
@@ -49,7 +51,7 @@ export default function PrintMenuPage() {
             {category.items.map((item) => (
               <li
                 key={item.name}
-                className="flex justify-between py-0.5 border-b border-gray-200 print:py-0.5 print:border-b-gray-300"
+                className="flex justify-between items-baseline py-0.5 border-b border-gray-300 print:py-0.5 print:border-b-gray-300"
               >
                 <div className="flex flex-col">
                   <span className="font-medium text-gray-900 print:text-[9px] leading-tight">
@@ -62,7 +64,7 @@ export default function PrintMenuPage() {
                   )}
                 </div>
                 {item.price && (
-                  <span className="font-semibold text-gray-900 print:text-[9px]">
+                  <span className="font-semibold text-gray-900 print:text-[9px] min-w-[55px] pl-2 text-right">
                     {item.price} kr
                   </span>
                 )}
@@ -73,13 +75,20 @@ export default function PrintMenuPage() {
       ))}
 
       {/* Kontaktinfo längst ner */}
-      <div className="mt-6 pt-6 border-t border-gray-300 pt-1 text-center text-sm print:text-[10px]">
+      <div className="mt-6 pt-6 pt-1 text-center text-sm print:text-[10px]">
         <p className="font-bold text-lg underline">Pizzahuset i Hallstavik</p>
-        <p><span className="font-semibold font-green-800">Adress:</span> Uppsalavägen 4C, Hallstavik</p>
-        <p><span className="font-semibold">Öppet alla dagar</span>
-        <br></br> Sommar 11:00-21:00 | Vinter 11:00-20:00</p> 
+        <p>
+          <span className="font-semibold font-green-800">Adress:</span>{" "}
+          Uppsalavägen 4C, Hallstavik
+        </p>
+        <p>
+          <span className="font-semibold">Öppet alla dagar</span>
+          <br></br> Sommar 11:00-21:00 | Vinter 11:00-20:00
+        </p>
 
-        <p><span className="font-semibold">Telefon:</span> 0175-234 51</p>
+        <p>
+          <span className="font-semibold">Telefon:</span> 0175-234 51
+        </p>
       </div>
     </div>
   );
