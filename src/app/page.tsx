@@ -78,13 +78,6 @@ export default function HomePage() {
               <br /> 0175-234 51
             </p>
 
-          <p className="text-sm text-gray-600 mt-6">
-            <em>
-              Observera avvikande öppettider under vinterhalvåret.
-              <br />
-              2025 innebär det att öppettiderna ändras från 27 oktober.
-            </em>
-          </p>
         </div>
 
       </main>
