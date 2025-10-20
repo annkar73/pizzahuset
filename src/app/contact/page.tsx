@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function ContactPage() {
   return (
     <div className="max-w-6xl mx-auto px-4">
@@ -7,28 +9,73 @@ export default function ContactPage() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
         {/* Kontaktkort */}
         <div className="bg-white shadow-xl rounded-xl p-6 text-left md:col-span-1 flex flex-col justify-evenly">
-          <div>
-            <p className="text-sm md:text-lg pb-2">
-              <span className="font-semibold text-green-800">📍 Adress:
+          <div className="space-y-4">
+            {/* Adress */}
+            <div className="flex items-start gap-3">
+              <Image
+                src="/images/pin.png"
+                alt="Adress"
+                width={24}
+                height={24}
+                className="mt-1"
+              />
+              <p className="text-sm md:text-lg">
+                <span className="font-semibold text-green-800">Adress:</span>
+                <br /> Uppsalavägen 4C, Hallstavik
+              </p>
+            </div>
 
-              </span>
-              <br /> Uppsalavägen 4C, Hallstavik
-            </p>
-            <p className="text-sm md:text-lg">
-              <span className="font-semibold text-green-800">🕒 Öppettider:
+            {/* Öppettider */}
+            <div className="flex items-start gap-3">
+              <Image
+                src="/images/clock.png"
+                alt="Öppettider"
+                width={24}
+                height={24}
+                className="mt-1"
+              />
+              <p className="text-sm md:text-lg">
+                <span className="font-semibold text-green-800">Öppettider:</span>
+                <br />
+                Sommar: Mån–Sön 11:00–21:00
+                <br />
+                Vinter: Mån–Sön 11:00–20:00
+              </p>
+            </div>
 
-              </span>
-              <br />Sommar: Mån–Sön 11:00–21:00{" "}
-              <span>
-                Vinter: Mån-Sön 11:00–20:00
-              </span>
-            </p>
-            <p className="text-sm md:text-lg pt-2">
-              <span className="font-semibold text-green-800">📞 Telefon:</span>
-              <br /> 0175-234 51
-            </p>
+            {/* Telefon */}
+            <div className="flex items-start gap-3">
+              <Image
+                src="/images/phone.png"
+                alt="Telefon"
+                width={24}
+                height={24}
+                className="mt-1"
+              />
+              <p className="text-sm md:text-lg">
+                <span className="font-semibold text-green-800">Telefon:</span>
+                <br /> 0175-234 51
+              </p>
+            </div>
+
+            {/* Facebook */}
+            <div className="flex items-center gap-3 pt-2">
+              <Image
+                src="/images/facebook.png"
+                alt="Facebook"
+                width={24}
+                height={24}
+              />
+              <a
+                href="https://www.facebook.com/pizzahusetihallstavik"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-green-800 hover:text-red-700 text-sm md:text-lg"
+              >
+                Facebook
+              </a>
+            </div>
           </div>
-
         </div>
 
         {/* Karta */}
